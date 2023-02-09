@@ -4,24 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>The First Law Trilogy Tribute Page</title>
   </head>
   <body>
     <header>
-      <h1>The First Law Triology</h1>
+      <h1 id="title">The First Law Trilogy</h1>
       <h3>By Joe Abercrombie</h3>
     </header>
     <main id="main">
       <div id="img-div">
-        <img src="The First Law.jpg" alt="The First Law Trilogy Front Covers" />
-        <h4 id="img-caption">
-          Book 1 - The Blade Itself, Book 2 - Before They Are Hanged, Book 3 -
-          Last Argument Of Kings
-        </h4>
+        <img id="image" src="https://1.bp.blogspot.com/-mai5QUxrCB4/XIkGh1-9kDI/AAAAAAAABo8/OuNr-doy7Kcn2t2IgMrtPEh20Fs2P1x9ACLcBGAs/s1600/The%2BFirst%2BLaw.jpg" alt="The First Law Trilogy Front Covers" style="display: block;max-width: 100%;"/>
+        <div id="img-caption">
+          <h4>
+            Book 1 - The Blade Itself, Book 2 - Before They Are Hanged, Book 3 -
+            Last Argument Of Kings
+          </h4>
+        </div>
       </div>
 
-      <article id="series-info">
+      <article id="tribute-info">
         <h4>Series Summary</h4>
         <ul>
           <li>
@@ -54,7 +62,10 @@
       <footer>
         <p>
           More information on the author Joe Abercrombie and his works can be
-          found on his <a href="http://joeabercrombie.com">website</a>.
+          found on his
+          <a id="tribute-link" href="http://joeabercrombie.com" target="_blank"
+            >website</a
+          >.
         </p>
       </footer>
     </main>
